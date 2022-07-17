@@ -15,14 +15,26 @@ You will be asked if you want to add the newly generated client to your running 
 
 usage: add_wg_peer [options]
 -V | --verbose	  		Output various default settings
+
 -Q | --qrcode		    	Print client QR code to screen
+
 -S | --serverconf		  Generate a peer stub file to append to server config
+
 -C | --clientconf	  	Write Wireguard client configuration to file
+
 -i | --interface		  Specify the Wireguard interface to work on (Default: wg0)
+
 -s | --server			    Server IP or DNS Name (Default: looked up external IP Address of this machine)
+
 -n | --peername			  Friendly name of the peer, is used to generate the config files name (Default: PeerName)
+
 -d | --peerdns			  The DNS the peer uses when the tunnel is established (Default: 9.9.9.9)
+
 -m | --mtu				    The clients MTU size (Default:1420)
+
 -f | --peerconfigfile	Optional, if set overrides the output file name
+
 -I | --interactive	  Activate interactive mode
--h | --help			    	This help text"
+
+-h | --help			    	This help text
+
