@@ -10,7 +10,7 @@ It works by reading the information from your running wireguard instance through
 
 # Usage #
 Copy the script to your wireguard server and run it like this:
-bash add_wg_peer.sh --peername MyClient  -- interface wg0 --serverconf -- clientconf --qrcode --verbose
+bash add_wg_peer.sh --peername MyClient  --interface wg0 --serverconf --clientconf --qrcode --verbose
 You will be asked if you want to add the newly generated client to your running instance, and if yes, if you want to save the changes to the wireguard config file.
 
 usage: add_wg_peer [options]
