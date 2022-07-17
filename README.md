@@ -1,6 +1,6 @@
 # add-wg-peer
 A simple (TM) shell script to generate WireGuard peer configurations and - QR codes in a terminal / SSH session. 
-It generates new Wireguard peer (client) configs. Tested on Ubiquiti Dream Machine Pro (Busybox / Debian based Router), Debian and its flavors, Windows 10 and 11 (using WSL 2.0, Windows Services for Linux).
+Tested on Ubiquiti Dream Machine Pro (Busybox / Debian based Router), Debian and its flavors, Windows 10 and 11 (using WSL 2.0, Windows Services for Linux).
 
 The script has very few dependencies: a running wireguard instance, bash, curl. If you want to generate QR codes the package qrencode - which should also be pretty standard on many distros.
 
